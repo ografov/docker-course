@@ -1,0 +1,18 @@
+{
+  "require": {
+    "yiisoft/yii2": "~2.0.14",
+    "yiisoft/yii2-redis": "~2.0.0",
+    "yiisoft/yii2-mongodb": "^2.1"
+  },
+  "config": {
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
